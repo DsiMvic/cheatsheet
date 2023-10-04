@@ -1,0 +1,101 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    background-color:aliceblue;
+    color:black;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:url("https://t4.ftcdn.net/jpg/04/09/56/81/360_F_409568122_UZ9SY4xMJYGaSw2902Iy4TztLiy06aHR.jpg")
+}
+
+h1 {
+    font-family:monospace;
+    letter-spacing: 0.7rem;
+    text-align: center;
+    font-size: 40px;
+    color:aliceblue;
+    background-image:url("https://t4.ftcdn.net/jpg/04/09/56/81/360_F_409568122_UZ9SY4xMJYGaSw2902Iy4TztLiy06aHR.jpg")
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.7rem;
+    background-image: url("https://t4.ftcdn.net/jpg/04/09/56/81/360_F_409568122_UZ9SY4xMJYGaSw2902Iy4TztLiy06aHR.jpg");
+    color:aliceblue;
+}
+
+.htmltables table {
+    border: 5px solid purple;
+    background-color:pink;
+    color:aliceblue;
+    margin:10px auto;
+}
+.htmltables th {
+    color:aqua;
+    padding: 20px;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/58/48/52/1000_F_458485260_jxHqZUm3RqaD5p5PtTVFecf2cDzehN2g.jpg");
+}
+
+.htmltables td{
+    background-image:url("https://t4.ftcdn.net/jpg/04/09/56/81/360_F_409568122_UZ9SY4xMJYGaSw2902Iy4TztLiy06aHR.jpg");
+    padding: 20px;
+    color:aliceblue;
+}
+
+/*hover effect,, NOT WORKING*/
+tr {
+    -moz-transition: background-color 300ms ease-in-out 0s;
+    -ms-transition: background-color 300ms ease-in-out 0s;
+    -o-transition: background-color 300ms ease-in-out 0s;
+    -webkit-transition: background-color 300ms ease-in-out 0s;
+    transition: background-color 300ms ease-in-out 0s;
+}
+  
+tr:hover {
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8PDw8VFRUVDxUPFRUPFRUPFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKys3Ny0rKysrNysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQcC/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDERFAQAAAAAAACigioIqooAioqCoAoCKogCiKACAACACgqKg5FRQAABQQAAAABBQBQgKACCCoIogCgCgAACgAiACgoIICKAAKmCgigKigCGKgKAgAACKAACCoIogqqAgACACgCooIoIAqIKIIAooCKiooCKgAAKIoAACoAqACCoIAAAAKigAAKgAAKAAgqKgAKAIAAAqAAAoigAAAAVKoCAKEFEQABFBQBUVA0AAAAUQBAVAAAFQAAAABBUBVAAEUAAAAAAAAAFBAADAAAARcFEFRAAAAAAAAEAAFQFUAAIAIoACAqoAAoIAqACKAAAAgoCACAAoAIAAAKACCiAqgAAAAAAAoiggCgAAqQQAFUwBEQVAABAAABQAQAAAFFEVFAAAAAAAAAVQRUQFQBagUABQRUQAFQAAAQAAABQAQVAVUUAAAAAVFBFEUUEQAAAAAAQBUAAAAAAAEAAUFRQARFEUUAAVFBFAEAUAAAAAEQQFAAAAABAAUAEBUUUAAAAAAABQAFQAAUQAAAQqRQEhQAUARYAJQAWEAABAAFIAotQEBYAJVACigEAUf/2Q=="); 
+    background-color:blueviolet;
+}
+
+#worthy{
+    color:rgb(65, 41, 6);
+    font-weight: bold;
+}
+
+#author {
+    font-family:monospace;
+    color:aliceblue;
+    font-size: 60%;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    background-image:url("https://t4.ftcdn.net/jpg/04/09/56/81/360_F_409568122_UZ9SY4xMJYGaSw2902Iy4TztLiy06aHR.jpg");
+}
+
+#intro{
+    padding-top: 20px;
+}
+
+.boxmodel img{
+    box-sizing: border-box;
+    background-color: blue;
+    padding: 30px;
+    margin: 50px;
+    border: 30px solid chartreuse;
+    display:inline-block;
+}
+
+.boxmodel{
+    background-color:purple;
+}
+
+.description{
+    box-sizing: border-box;
+    background-color:aliceblue;
+    display:inline-block;
+    position: relative;
+    top: -500px;
+    left: 820px;
+    padding-inline: 150px;
+}
+
